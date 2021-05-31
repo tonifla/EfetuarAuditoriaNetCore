@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ProjectGuid>{840188FB-EE5F-4D47-9F23-7E274691DB81}</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\Base\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.5" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="5.21.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppFiscDf.Domain.Interface\AppFiscDf.Domain.Interface.csproj" />
+    <ProjectReference Include="..\AppFiscDf.Infra.WebService\AppFiscDf.Infra.WebService.csproj" />
+  </ItemGroup>
+</Project>

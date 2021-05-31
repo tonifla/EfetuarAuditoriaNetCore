@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<ProjectGuid>{D38688D4-2632-4F82-AA15-2E8D0D6B892F}</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppFiscDf.Application.Interface\AppFiscDf.Application.Interface.csproj" />
+    <ProjectReference Include="..\AppFiscDf.Domain.Interface\AppFiscDf.Domain.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

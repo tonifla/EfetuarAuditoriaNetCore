@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ProjectGuid>{BC551341-E744-4241-8370-86F75204D2D2}</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppFiscDf.Application.Model\AppFiscDf.Application.Model.csproj" />
+    <ProjectReference Include="..\AppFiscDf.Domain.Interface\AppFiscDf.Domain.Interface.csproj" />
+  </ItemGroup>
+</Project>
